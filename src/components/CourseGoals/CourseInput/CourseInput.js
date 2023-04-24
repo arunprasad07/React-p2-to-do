@@ -13,7 +13,7 @@ const CourseInput = (props) => {
     }
     setEnteredValue(event.target.value);
   };
-
+  //Test commit
   const formSubmitHandler = (event) => {
     event.preventDefault();
     if (enteredValue.trim().length === 0) {
@@ -30,7 +30,7 @@ const CourseInput = (props) => {
         <input
           style={{
             borderColor: !isValid ? "red" : "black",
-            backgroundColor: !isValid ? "salmon" : "transparent"
+            backgroundColor: !isValid ? "salmon" : "transparent",
           }}
           type="text"
           onChange={goalInputChangeHandler}
